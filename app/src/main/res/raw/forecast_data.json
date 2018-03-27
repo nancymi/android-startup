@@ -1,0 +1,185 @@
+{
+    "city": {
+        "id": 420006358,
+        "name": "Mountain View",
+        "coord": {
+            "lon": -122.0833,
+            "lat": 37.3894
+        },
+        "country": "US",
+        "population": 0
+    },
+    "cod": "200",
+    "message": 0.1925486,
+    "cnt": 7,
+    "list": [
+        {
+            "dt": 1522008000,
+            "temp": {
+                "day": 12.64,
+                "min": 5.47,
+                "max": 12.64,
+                "night": 5.47,
+                "eve": 8.9,
+                "morn": 12.64
+            },
+            "pressure": 995.28,
+            "humidity": 63,
+            "weather": [
+                {
+                    "id": 801,
+                    "main": "Clouds",
+                    "description": "few clouds",
+                    "icon": "02n"
+                }
+            ],
+            "speed": 2.93,
+            "deg": 308,
+            "clouds": 24
+        },
+        {
+            "dt": 1522094400,
+            "temp": {
+                "day": 14.35,
+                "min": 3.27,
+                "max": 14.35,
+                "night": 4.36,
+                "eve": 10.19,
+                "morn": 3.27
+            },
+            "pressure": 997.7,
+            "humidity": 53,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "sky is clear",
+                    "icon": "01d"
+                }
+            ],
+            "speed": 3.32,
+            "deg": 338,
+            "clouds": 0
+        },
+        {
+            "dt": 1522180800,
+            "temp": {
+                "day": 18.75,
+                "min": 3.61,
+                "max": 18.78,
+                "night": 5.05,
+                "eve": 13.29,
+                "morn": 3.61
+            },
+            "pressure": 999.09,
+            "humidity": 51,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "sky is clear",
+                    "icon": "01d"
+                }
+            ],
+            "speed": 2.32,
+            "deg": 2,
+            "clouds": 0
+        },
+        {
+            "dt": 1522267200,
+            "temp": {
+                "day": 15.41,
+                "min": 7.37,
+                "max": 17.93,
+                "night": 10.87,
+                "eve": 17.93,
+                "morn": 7.37
+            },
+            "pressure": 1016.77,
+            "humidity": 0,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "sky is clear",
+                    "icon": "01d"
+                }
+            ],
+            "speed": 1.18,
+            "deg": 235,
+            "clouds": 0
+        },
+        {
+            "dt": 1522353600,
+            "temp": {
+                "day": 16.67,
+                "min": 8.58,
+                "max": 18.84,
+                "night": 11.88,
+                "eve": 18.84,
+                "morn": 8.58
+            },
+            "pressure": 1012.46,
+            "humidity": 0,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "sky is clear",
+                    "icon": "01d"
+                }
+            ],
+            "speed": 1.07,
+            "deg": 265,
+            "clouds": 26
+        },
+        {
+            "dt": 1522440000,
+            "temp": {
+                "day": 16.03,
+                "min": 9.02,
+                "max": 17.82,
+                "night": 12.28,
+                "eve": 17.82,
+                "morn": 9.02
+            },
+            "pressure": 1012.34,
+            "humidity": 0,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "sky is clear",
+                    "icon": "01d"
+                }
+            ],
+            "speed": 0.79,
+            "deg": 280,
+            "clouds": 64
+        },
+        {
+            "dt": 1522526400,
+            "temp": {
+                "day": 16.07,
+                "min": 10.71,
+                "max": 17.67,
+                "night": 10.8,
+                "eve": 17.67,
+                "morn": 10.71
+            },
+            "pressure": 1011.56,
+            "humidity": 0,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "sky is clear",
+                    "icon": "01d"
+                }
+            ],
+            "speed": 0.88,
+            "deg": 286,
+            "clouds": 43
+        }
+    ]
+}
