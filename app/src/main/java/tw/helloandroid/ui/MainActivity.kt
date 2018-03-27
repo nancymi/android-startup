@@ -7,9 +7,15 @@ import com.google.gson.Gson
 import kotlinx.android.synthetic.main.activity_main.*
 import tw.helloandroid.ui.adapters.ForecastListAdapter
 import tw.helloandroid.R
+import tw.helloandroid.data.server.ForecastResult
+import tw.helloandroid.data.server.ServerDataMapper
 import tw.helloandroid.domain.model.ForecastList
 
 class MainActivity : AppCompatActivity() {
+
+    companion object {
+        const val ZIP_CODE = 1234L
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,7 +39,9 @@ class MainActivity : AppCompatActivity() {
                 .use {
                     it.readText()
                 }
-        return Gson().fromJson(jsonString, ForecastList::class.java)
+
+        val serverResult = Gson().fromJson(jsonString, ForecastResult::class.java)
+        return ServerDataMapper().convertToDomain(ZIP_CODE, serverResult)
     }
 
     private fun updateUI(weekForecast: ForecastList) {
