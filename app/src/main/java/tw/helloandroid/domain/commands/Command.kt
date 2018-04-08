@@ -1,4 +1,5 @@
 package tw.helloandroid.domain.commands
 
-interface Command {
+interface Command<out T> {
+    fun execute(): T
 }
