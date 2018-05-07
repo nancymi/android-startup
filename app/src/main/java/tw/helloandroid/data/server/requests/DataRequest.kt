@@ -8,5 +8,5 @@ interface DataRequest {
         private const val URL = "http://api.openweathermap.org/data/2.5/forecast/daily?mode=json&units=metric&cnt=7"
         const val COMPLETE_URL = "$URL&APPID=$APP_ID&zip="
     }
-    fun execute(): ForecastResult
+    fun execute(): ForecastResult?
 }

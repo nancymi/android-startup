@@ -7,7 +7,7 @@ import java.net.URL
 
 class ForecastByZipCodeRequest(private val zipCode: Long, val gson: Gson = Gson()): DataRequest {
 
-    override fun execute(): ForecastResult {
+    override fun execute(): ForecastResult? {
         val forecastJsonStr = URL(COMPLETE_URL + zipCode).readText()
         return gson.fromJson(forecastJsonStr, ForecastResult::class.java)
     }

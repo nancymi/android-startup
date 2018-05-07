@@ -9,7 +9,7 @@ class ForecastOkHttpRequest(private val zipCode: Long, private val gson: Gson = 
     companion object {
         private val client = OkHttpClient()
     }
-    override fun execute(): ForecastResult {
+    override fun execute(): ForecastResult? {
         val request = Request.Builder().url("${DataRequest.COMPLETE_URL}$zipCode").build()
         val response = client.newCall(request).execute()
         return gson.fromJson(response.body()?.string(), ForecastResult::class.java)
