@@ -1,6 +1,5 @@
 package tw.helloandroid.data.server
 
-import tw.helloandroid.data.server.requests.ForecastByZipCodeRequest
 import tw.helloandroid.data.server.requests.ForecastOkHttpRequest
 import tw.helloandroid.domain.datasource.ForecastDataSource
 import tw.helloandroid.domain.model.ForecastList
